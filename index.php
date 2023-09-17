@@ -1,6 +1,6 @@
 <?php
 
-include '../components/connect.php';
+include 'connect.php';
 
 if(isset($_POST['submit'])){
 
@@ -36,7 +36,7 @@ if(isset($_POST['submit'])){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="../css/admin_style.css">
+   <link rel="stylesheet" href="admin_style.css">
 
 </head>
 <body style="padding-left: 0;">
@@ -76,7 +76,7 @@ if(isset($_POST['submit'])){
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
 
-<?php include '../components/message.php'; ?>
+<?php include 'message.php'; ?>
 
 </body>
 </html>
